@@ -1,11 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     width: 900px;
     margin: 0 auto;
     background-color: rgba(211, 211, 211, 0.692);
 }
-.figure-photo {
-    border-radius: 50%;
+h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+img {
+    width: 30%;
 }
 p {
     text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+li {
+    list-style-type: none;
+   }
+a {
+    text-decoration: none;
+    color: tomato;
+}
+.header-nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
