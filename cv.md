@@ -17,3 +17,11 @@
 
 #### Code examples can be found in my profile on 
 [GitHub](https://github.com/Natasha2805)
+
+* Education 
+    * programming courses “IT class”
+    * courses HTML Academy
+    * courses Codecademy
+    * courses “Udemy”
+
+#### I started to learn the English language at the school. Than when I started at the University, I learned professional (business) language. Unfortunately, I don’t use the foreign language on the everyday basis. I would estimate my knowledge as Pre-Intermediate.
