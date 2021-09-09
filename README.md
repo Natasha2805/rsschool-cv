@@ -1,1 +1,0 @@
-https://Natasha2805.github.io/rsschool-cv/cv
