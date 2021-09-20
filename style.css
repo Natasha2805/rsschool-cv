@@ -178,3 +178,43 @@ a:visited {
     justify-content: space-between;
     align-items: center;
 }
+@media (min-width: 150px) and (max-width: 580px) { 
+    .container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .aside img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 40%;
+    }
+    .car-project {
+        width: 250px;
+    }
+    .aside {
+        width: 100%;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .wpapper {
+        width: 100%;
+    }
+    .header {
+        padding: 35px 50px;
+    }
+    .container-footer {
+        justify-content: start;
+    }
+    .frontend {
+        font-size: 15px;
+    }
+    .container-footer a {
+        margin-right: 30px;
+    }
+    .footer div img {
+        height: 63px;
+    }
+}
