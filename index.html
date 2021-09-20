@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/shades-of-purple.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <aside class="aside">
+            <figure class="figure-photo">
+                <img src="./assets/foto.jpg" alt="my photo" class="photo" width="250" height="290" >
+            </figure>
+            <div class="education">
+                <h2 class="title-text">
+                    Education
+                </h2>
+                <div class="line-text"></div>
+                <p class="subtitle">
+                   <a class="link-education" href="http://bgut.by/" target="_blank"> Belorussian state university food and chemical technologies. </a>
+                </p>
+                <p class="subtitle-text">
+                    engineer-technologist
+                </p>
+                <p class="subtitle-text">
+                    2010-2015
+                </p>
+            </div>
+            <div class="education contacts">
+                <h2 class="title-text">
+                    Contacts
+                </h2>
+                <div class="line-text"></div>
+                <ul>
+                    <li class="list-contacts">
+                        <a href="mailto:nataliasolox@gmail.com" target="_blank">Email: nataliasolox@gmail.com</a>
+                    </li>
+                    <li class="list-contacts">
+                        Telegram: @Natasha280519
+                    </li>
+                    <li class="list-contacts">
+                        Phone: +375(25)5271873
+                    </li>
+                </ul>
+            </div>
+            <div class="education">
+                <h2 class="title-text">
+                    language
+                </h2>
+                <div class="line-text"></div>
+                <ul>
+                    <li class="list-contacts">
+                        Russian (native)
+                    </li>
+                    <li class="list-contacts">
+                        English A2+
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <div class="wpapper">
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li class="nav-menu_li"><a class="nav-menu_link" href="#idcode">Code example</a></li>
+                    <li class="nav-menu_li"><a class="nav-menu_link" href="#skils">My skils It</a></li>
+                    <li class="nav-menu_li"><a class="nav-menu_link" href="#education">My education</a></li>
+                </ul>
+            </nav>
+            <header class="header">
+                <h1 class="name">Natasha Solokhova</h1>
+                <p class="frontend">Future front-end developer<p>
+            </header>
+            <main class="main">
+                <section class="about">
+                    <h2 class="about-title">Information about yourself</h2>
+                    <div class="line-blue"></div>
+                    <p class="about-text">
+                        I would like to be part of the IT community to contribute to the development of innovations that can change a person's life for the better. I decided to become a developer to be at the forefront of creating new products. I study such technologies: HTML, CSS, Java Script, but at the same time I try to get as much new knowledge as possible every day. I have a passion and a strong desire to start my career in information technology. I think my experience as a process engineer can help me be more competitive as a developer.
+                    </p>
+                    <h2 class="about-title" id="idcode">Code example:</h2>
+                    <div class="line-blue"></div>
+                    <div class="code">
+                        <pre>
+                            <code class="code-js">
+                                var OrderPeople = function(people){return people.sort((a,b) => (a.age > b.age) ? 1 : ((b.age > a.age) ? -1 : 0));}
+                            </code>
+                        </pre>
+                    </div>
+                </section>
+                <section class="section-skils">
+                    <h2 class="about-title" id="skils">My skils IT</h2>
+                    <div class="line-blue"></div>
+                    <ul>
+                        <li class="skils skils-html">
+                            HTML
+                        </li>
+                        <li class="skils skils-css">
+                            CSS
+                        </li>
+                        <li class="skils skils-js">
+                            JS
+                        </li>
+                        <li class="skils skils-figma">
+                            Figma
+                        </li>
+                        <li class="skils skils-github">
+                            Github
+                        </li>
+                    </ul>
+                </section>
+                <section class="section-education">
+                    <h2 class="about-title" id="education">My education</h2>
+                    <div class="line-blue"></div>
+                    <ul>
+                        <li class="skils tb-education tb-education_bgut">
+                            University (BGUT)
+                        </li>
+                        <li class="skils tb-education tb-education_it">
+                            Course it-academy
+                        </li>
+                        <li class="skils tb-education tb-education_html">
+                            HTML-academy (HTML,CSS,JS)
+                        </li>
+                        <li class="skils tb-education tb-education_udemy">
+                            Udemy (JS advance)
+                        </li>
+                    </ul>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="container-footer">
+                    <a href="https://github.com/Natasha2805" target="_blank">
+                        <img src="assets/icons/github.svg" alt="github-icon">
+                    </a>
+                    <a href="https://rs.school/" target="_blank"><img src="./assets/icons/rss.svg" alt="rs-school"></a>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="main.js"></script>
+</body>
+</html>
